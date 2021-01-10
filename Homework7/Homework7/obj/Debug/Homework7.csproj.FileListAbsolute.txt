@@ -1,0 +1,2 @@
+C:\Users\hatic\source\repos\Homework7\Homework7\obj\Debug\Homework7.csprojAssemblyReference.cache
+C:\Users\hatic\source\repos\Homework7\Homework7\obj\Debug\Homework7.csproj.CoreCompileInputs.cache
