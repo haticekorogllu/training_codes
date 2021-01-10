@@ -4,62 +4,57 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace homework1
+namespace Homework2
 {
     class Program
     {
         static void Main(string[] args)
-        {      // Homework 1 
-               //  Dear Teacher ödevlerimdeki gecikmelerden dolayı çok çok özür dilerim.
-
-            Console.WriteLine("BMI CALCULATOR");
-            Console.WriteLine("===================");
-            Console.WriteLine("WELCOME");
-
-            Console.WriteLine("Weight in kg: ");
-            int kg;
-            kg = Convert.ToInt32(Console.ReadLine());
-           
-            Console.Write("Height in cm: ");
-            int m;
-            m = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("Gender (m/f):");
-            string Gender  = Console.ReadLine();
-
-            int BMI;
-            BMI = kg / (m / 100) * (m / 100);
-
-            if (BMI < 19 & Gender == "f")
+        {
+            Random rastgeleSayiUretici = new Random();
+            int uretilenSayi = rastgeleSayiUretici.Next(1, 100);
+            bool sayiBulunduMu = false;
+             
+                
+  
+            
+            
+            while (!sayiBulunduMu )
             {
-                Console.WriteLine("-> Underweight"); 
-            }
-            if (BMI >= 19 & BMI <= 24 & Gender == "f")
-            {
-                Console.WriteLine("-> Normal"); 
-            }
-            if (BMI > 24 & Gender == "f")
-            {
-                Console.WriteLine("-> Overweight"); 
-            }
 
-            if (BMI < 20 & Gender == "m")
-            {
-                Console.WriteLine("-> Underweight");
-            }
-            if (BMI >= 20 & BMI <= 25 & Gender == "m")
-            {
-                Console.WriteLine("-> Normal"); 
-            }
-            if (BMI > 25 & Gender == "m")
-            {
-                Console.WriteLine("-> Overweight");
-            }
+                Console.WriteLine("Tahmininizi Girin: ");
+                int tahminEdilenSayi = Convert.ToInt32(Console.ReadLine());
+                if (uretilenSayi > tahminEdilenSayi)
+                {
+                    Console.WriteLine(" Yukarı! ");
+                }
+                else if (uretilenSayi < tahminEdilenSayi)
+                {
+                    Console.WriteLine("Aşağı!");
+                }
+                else 
+                {
+                    Console.WriteLine("Eşittir!");
+                  
+                    Console.WriteLine("Tekrar Oynamak İster misin ? ");
+                  
+                   
+                    int tekrarOyna = Convert.ToInt32(Console.ReadLine());
+                    if( tekrarOyna==1 )
+                    {
+                        int sayUret = rastgeleSayiUretici.Next(1, 100);
 
-
+                    } else
+                    {
+                        sayiBulunduMu = true;  
+                    }
+                   
+                }
+                 
+            }
+            
             Console.ReadLine();
             Console.ReadKey();
-
         }
+
     }
 }
