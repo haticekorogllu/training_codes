@@ -1,0 +1,6 @@
+C:\Users\hatic\source\repos\Homework33\Homework33\bin\Debug\Homework33.exe.config
+C:\Users\hatic\source\repos\Homework33\Homework33\bin\Debug\Homework33.exe
+C:\Users\hatic\source\repos\Homework33\Homework33\bin\Debug\Homework33.pdb
+C:\Users\hatic\source\repos\Homework33\Homework33\obj\Debug\Homework33.csproj.CoreCompileInputs.cache
+C:\Users\hatic\source\repos\Homework33\Homework33\obj\Debug\Homework33.exe
+C:\Users\hatic\source\repos\Homework33\Homework33\obj\Debug\Homework33.pdb
