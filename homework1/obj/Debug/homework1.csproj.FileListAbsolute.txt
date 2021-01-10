@@ -1,0 +1,7 @@
+C:\Users\hatic\source\repos\homework1\homework1\obj\Debug\homework1.csprojAssemblyReference.cache
+C:\Users\hatic\source\repos\homework1\homework1\obj\Debug\homework1.csproj.CoreCompileInputs.cache
+C:\Users\hatic\source\repos\homework1\homework1\bin\Debug\homework1.exe.config
+C:\Users\hatic\source\repos\homework1\homework1\bin\Debug\homework1.exe
+C:\Users\hatic\source\repos\homework1\homework1\bin\Debug\homework1.pdb
+C:\Users\hatic\source\repos\homework1\homework1\obj\Debug\homework1.exe
+C:\Users\hatic\source\repos\homework1\homework1\obj\Debug\homework1.pdb
